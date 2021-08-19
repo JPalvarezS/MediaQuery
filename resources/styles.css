@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  header,
+  nav {
+    display: block;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    outline: none;
+    transition: 1s all ease-in-out;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .main-menu {
+    background-color: #415bee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 1.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .logotipo {
+    width: 115px;
+    margin-left: 500px;
+  }
+
+  .logotipo:hover {
+    box-shadow: 0 -2px 0 0 white inset;
+  }
+
+  .menu-desktop,
+  .menu-mobile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .links-menu {
+    padding: 0.1rem;
+    line-height: 100px;
+    height: 100px;
+    color: white;
+    transition: 0.5s all ease-in-out;
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .links-menu:hover {
+    transform: scale(0.95);
+    box-shadow: 0 -2px 0 0 white inset;
+  }
+
+  #foto-desktop {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  #foto-mobile {
+    display: none;
+  }
+
+  section {
+    margin-bottom: 100px;
+  }
+
+  #foto {
+    width: 40%;
+    height: 40%;
+    margin: 30px;
+    float: left;
+  }
+
+  article {
+    margin-bottom: 20%;
+  }
+
+  .text-container > h2 {
+    margin: 30px;
+    font-size: 5rem;
+    font-style: oblique;
+  }
+
+  .text-container > h3 {
+    margin: 15px;
+    font-size: 1.8rem;
+    font-style: italic;
+  }
+
+  .text-container > p {
+    margin: 20px;
+    font-size: 1.2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .link1 {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    letter-spacing: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header,
+  nav {
+    display: block;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    outline: none;
+    transition: 1s all ease-in-out;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .main-menu {
+    background-color: #415bee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 1.5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .logotipo {
+    width: 115px;
+    margin-left: 500px;
+    display: none;
+  }
+
+  .logotipo:hover {
+    box-shadow: 0 -2px 0 0 white inset;
+  }
+
+  .menu-desktop,
+  .menu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .links-menu {
+    padding: 0.1rem;
+    line-height: 100px;
+    height: 100px;
+    color: white;
+    transition: 0.5s all ease-in-out;
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .links-menu:hover {
+    transform: scale(0.95);
+    box-shadow: 0 -2px 0 0 white inset;
+  }
+
+  #foto-mobile {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  #foto-desktop {
+    display: none;
+  }
+
+  section {
+    margin-bottom: 100px;
+  }
+
+  #foto {
+    width: 60%;
+    height: 60%;
+    margin: 30px;
+    margin-left: 20%;
+    order: 2;
+  }
+
+  article {
+    margin-bottom: 20%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .text-container {
+    order: 1;
+  }
+
+  .text-container > h2 {
+    margin: 30px 30px 15px 30px;
+    font-size: 3rem;
+    font-style: oblique;
+  }
+
+  .text-container > h3 {
+    margin-left: 30px;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  .text-container > p {
+    margin: 20px;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .link1 {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    letter-spacing: 0.5rem;
+    margin-left: 20px;
+  }
+}
